@@ -37,7 +37,7 @@ npm install sparetime.js --save
 ```
 
 ```
- Spare.sel('#but').html(`<span> This us cool huh? </span>`);
+ Spare.sel('#but').html(`<span> This is cool huh? </span>`);
 
 ```
 

@@ -105,7 +105,7 @@ class Ele implements Ele{
      }
 }
 
-
+export default  spare
 
 
 
