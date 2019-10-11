@@ -44,7 +44,7 @@ npm install sparetime.js --save
 * Select and append
 
 ```
-  Spare.sel('#todo-list').append(m);
+  Spare.sel('#list').append(m);
 ```
 
 ```
