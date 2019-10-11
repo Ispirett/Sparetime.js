@@ -1,4 +1,4 @@
-#Spare.js Beta
+#sparetime.js Beta
 
 ###### A dom manipulation library that spares your time.
 
@@ -17,7 +17,7 @@ node
 
 ### Installing
 ```
-npm install spare.js
+npm install sparetime.js --save
 ```
 
 
