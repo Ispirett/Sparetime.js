@@ -1,0 +1,17 @@
+{
+  "name": "Spare.js",
+  "version": "1.0.0",
+  "description": "A dom manipulation library that spares your time.",
+  "main": "dist/spare.bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
