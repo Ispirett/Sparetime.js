@@ -1,4 +1,4 @@
-#sparetime.js Beta
+# sparetime.js Beta
 
 ###### A dom manipulation library that spares your time.
 
@@ -28,6 +28,7 @@ npm install sparetime.js --save
         }
 
 ```
+
 
 ### Examples
 * Create, add attributes, add Classes, add Html, get element 
