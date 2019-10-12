@@ -9,9 +9,9 @@ var __assign = (this && this.__assign) || function () {
     };
     return __assign.apply(this, arguments);
 };
-var spare = function () {
+function spare() {
     (function (window) {
-        function defineTouch() {
+        function defineSpare() {
             //console.log('Touch framework is running')
             var Spare = {};
             //@ts-ignore
@@ -39,11 +39,12 @@ var spare = function () {
             return Spare;
         }
         if (typeof Spare === "undefined") {
-            window.Spare = defineTouch();
+            window.Spare = defineSpare();
         }
         // defineTouch()
     })(window); //hello
-};
+}
+;
 var Ele = /** @class */ (function () {
     function Ele() {
         var _this = this;
@@ -108,3 +109,5 @@ var Ele = /** @class */ (function () {
     };
     return Ele;
 }());
+
+export default spare

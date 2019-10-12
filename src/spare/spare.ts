@@ -1,6 +1,6 @@
-const spare = () => {
+function spare () {
    (function (window) {
-        function defineTouch() {
+        function defineSpare() {
             //console.log('Touch framework is running')
             let Spare = {};
 
@@ -33,7 +33,7 @@ const spare = () => {
         }
 
         if (typeof Spare === "undefined") {
-            window.Spare = defineTouch()
+            window.Spare = defineSpare()
         }
         // defineTouch()
 
@@ -105,5 +105,5 @@ class Ele implements Ele{
      }
 }
 
-export default spare
+
 

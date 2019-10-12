@@ -1,1 +1,1 @@
-import './spare/spare.js'
+ import './spare/spare.js'
